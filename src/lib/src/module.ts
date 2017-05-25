@@ -15,6 +15,6 @@ import {AuMdInputComponent} from "./itn-md-input/itn-md-input.component";
     ],
     exports: [AuFaInputComponent, AuMdInputComponent, InputRefDirective]
 })
-export class itnInputModule { }
+export class ItnInputModule { }
 
 

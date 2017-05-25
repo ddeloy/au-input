@@ -2,7 +2,7 @@ import {Component, Input, ContentChild, AfterContentInit, HostBinding} from '@an
 import {InputRefDirective} from "../common/input-ref.directive";
 import {commonCss} from "../common/common.css";
 import {defaultThemeCss} from "../common/default-theme.css";
-import {mdInputStyles} from "./itn-md-input.component.css";
+import {mdInputStyles} from "./au-md-input.component.css";
 
 
 @Component({

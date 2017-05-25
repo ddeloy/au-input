@@ -1,2 +1,2 @@
 
-export {itnInputModule} from './src/module';
+export {ItnInputModule} from './src/module';
