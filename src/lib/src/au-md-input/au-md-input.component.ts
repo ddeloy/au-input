@@ -2,11 +2,11 @@ import {Component, Input, ContentChild, AfterContentInit, HostBinding} from '@an
 import {InputRefDirective} from "../common/input-ref.directive";
 import {commonCss} from "../common/common.css";
 import {defaultThemeCss} from "../common/default-theme.css";
-import {mdInputStyles} from "./au-md-input.component.css";
+import {mdInputStyles} from "./itn-md-input.component.css";
 
 
 @Component({
-    selector: 'au-md-input',
+    selector: 'itn-md-input',
     template: `
 
         <i class="md-icon" [innerHtml]="icon"></i>
@@ -26,7 +26,7 @@ export class AuMdInputComponent implements AfterContentInit {
 
     ngAfterContentInit() {
         if (!this.input) {
-            console.error("the au-md-input needs an input inside its content");
+            console.error("the itn-md-input needs an input inside its content");
         }
     }
 

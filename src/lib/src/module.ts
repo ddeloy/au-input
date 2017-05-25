@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import {AuFaInputComponent} from "./au-fa-input/au-fa-input.component";
+import {AuFaInputComponent} from "./itn-fa-input/itn-fa-input.component";
 import {InputRefDirective} from "./common/input-ref.directive";
-import {AuMdInputComponent} from "./au-md-input/au-md-input.component";
+import {AuMdInputComponent} from "./itn-md-input/itn-md-input.component";
 
 
 
@@ -15,6 +15,6 @@ import {AuMdInputComponent} from "./au-md-input/au-md-input.component";
     ],
     exports: [AuFaInputComponent, AuMdInputComponent, InputRefDirective]
 })
-export class AuInputModule { }
+export class itnInputModule { }
 
 

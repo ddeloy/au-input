@@ -1,7 +1,7 @@
 import {Directive, HostListener} from '@angular/core';
 
 @Directive({
-    selector: '[auInput]'
+    selector: '[itnInput]'
 })
 export class InputRefDirective {
 

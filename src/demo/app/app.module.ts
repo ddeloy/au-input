@@ -1,11 +1,11 @@
 import { NgModule }      from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { AuInputModule } from 'au-input';
+import { itnInputModule } from 'itninput';
 
 import { AppComponent }  from './app.component';
 
 @NgModule({
-  imports:      [ BrowserModule, AuInputModule],
+  imports:      [ BrowserModule, itnInputModule],
   declarations: [ AppComponent ],
   bootstrap:    [ AppComponent ]
 })

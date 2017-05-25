@@ -4,7 +4,7 @@ import {commonCss} from "../common/common.css";
 import {defaultThemeCss} from "../common/default-theme.css";
 
 @Component({
-    selector: 'au-fa-input',
+    selector: 'itn-fa-input',
     template: `
 
         <i class="icon fa" [ngClass]="classes"></i>
@@ -24,7 +24,7 @@ export class AuFaInputComponent implements AfterContentInit {
 
     ngAfterContentInit() {
         if (!this.input) {
-            console.error('the au-fa-input needs an input inside its content');
+            console.error('the itn-fa-input needs an input inside its content');
         }
     }
 

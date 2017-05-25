@@ -7,14 +7,14 @@ import { Component } from '@angular/core';
 
       <h2>Hello Angular Library</h2>
 
-      <au-fa-input icon="envelope" id="email-field">
-          <input auInput type="email" name="email" placeholder="Email" autocomplete="off"
+      <itn-fa-input icon="envelope" id="email-field">
+          <input itnInput type="email" name="email" placeholder="Email" autocomplete="off"
                  class="some-class" data-stripe="email">
-      </au-fa-input>
+      </itn-fa-input>
       
-      <au-md-input icon="perm_identity">
-          <input auInput name="identity" placeholder="Identity Number">
-      </au-md-input>
+      <itn-md-input icon="perm_identity">
+          <input itnInput name="identity" placeholder="Identity Number">
+      </itn-md-input>
 
 
   `,

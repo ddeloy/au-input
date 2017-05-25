@@ -1,2 +1,2 @@
 
-export {AuInputModule} from './src/module';
+export {itnInputModule} from './src/module';
