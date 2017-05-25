@@ -3,7 +3,7 @@
     "baseDir": "src/demo",
     "routes": {
       "/node_modules": "node_modules",
-      "/au-input": "src/lib"
+      "/itn-input": "src/lib"
     }
   }
 }

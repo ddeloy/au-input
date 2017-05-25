@@ -34,7 +34,7 @@
       rxjs: {
         defaultExtension: 'js'
       },
-      'au-input': {
+      'itn-input': {
         main: 'index.js',
         defaultExtension: 'js'
       }
