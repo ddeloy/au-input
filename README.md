@@ -11,7 +11,7 @@ Any icon available on either the [Font Awesome](http://fontawesome.io) or the [G
 
 It will be the foundation of a more details Component Library.
 
-Special thanks to: [Angular University](https://angular-university.io/) for excellent course on Building your own Angular Libray
+Special thanks to: [Angular University](https://angular-university.io/) for excellent course on Building your own Angular Library which provided basis for this project.
 
 ### Features:
 
