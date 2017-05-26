@@ -13,6 +13,8 @@ It will be the foundation of a more extensive Component Library.
 
 Special thanks to: [Angular University](https://angular-university.io/) for excellent course on Building your own Angular Library which provided basis for this project.
 
+View Demo: [ddeloy.net/itn-input](http://ddeloy.net/itn-input/) 
+
 ### Features:
 
 - The components have minimum styling and are theme-able 
