@@ -1,6 +1,6 @@
 {
   "name": "itn-input",
-  "version": "1.3.4",
+  "version": "1.3.5",
   "description": "itn-input",
   "main": "./itn-input.umd.js",
   "module": "./itn-input.es5.js",
