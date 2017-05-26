@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 
 import { AppComponent }  from './app.component';
-import {ItnInputModule} from "itn-input";
+import {ItnInputModule} from 'itn-input';
 
 
 

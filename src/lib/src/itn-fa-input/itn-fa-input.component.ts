@@ -1,7 +1,7 @@
 import {Component, Input, ContentChild, AfterContentInit, HostBinding} from '@angular/core';
-import {InputRefDirective} from "../common/input-ref.directive";
-import {commonCss} from "../common/common.css";
-import {defaultThemeCss} from "../common/default-theme.css";
+import {InputRefDirective} from '../common/input-ref.directive';
+import {commonCss} from '../common/common.css';
+import {defaultThemeCss} from '../common/default-theme.css';
 
 @Component({
   selector: 'itn-fa-input',
@@ -14,7 +14,7 @@ import {defaultThemeCss} from "../common/default-theme.css";
   `,
   styles: [ commonCss, defaultThemeCss ]
 })
-export class AuFaInputComponent implements AfterContentInit {
+export class ItnFaInputComponent implements AfterContentInit {
 
   @Input()
   icon: string;
