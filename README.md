@@ -9,11 +9,12 @@ The default theme of the input is designed to look just like a plain HTML input,
 
 Any icon available on either the [Font Awesome](http://fontawesome.io) or the [Google Material Design](https://material.io/icons/) Icon libraries can be used.
 
-It will be the foundation of a more extensive Component Library.
+It will be the foundation of a more extensive Component Library... which can be view at: [ddeloy.net/itn-input](http://ddeloy.net/itn-input/) 
+Note The demn site will poc the selective customization of additional, commonly used html elements, with material design styles(ie. buttons, navigation etc.). And these additional features will be gradually added to the itn-input library. 
 
 Special thanks to: [Angular University](https://angular-university.io/) for excellent course on Building your own Angular Library which provided basis for this project.
 
-View Demo: [ddeloy.net/itn-input](http://ddeloy.net/itn-input/) 
+View Demo: 
 
 ### Features:
 
