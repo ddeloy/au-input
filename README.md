@@ -61,7 +61,7 @@ export class AppModule { }
 
 # Using the Font Awesome Inputs
 
-We will need to add first a version of Font Awesome to our page, for example:
+First add version of Font Awesome to our page, for example:
 
 ```html
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -72,10 +72,8 @@ Then we can use the Font Awesome Input like this:
 ```html
 <itn-fa-input icon="envelope">
     <input itnInput type="email" name="email" placeholder="Email" autocomplete="off" 
-        class="some-class" data-stripe="email">
 </itn-fa-input>
-
-.``
+```
 
 The inputs receive an input property named `icon` that identifies which Font Awesome icon we want to apply. 
 
@@ -94,13 +92,34 @@ We will need to add first a version of the Google Material Design icons to our p
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 ```
 
-Then we can use the Material Design Input like this:
+Then use the Material Design Input like this:
 
 ```html
 <itn-md-input icon="search">
     <input itnInput type="email" name="email" placeholder="E-mail">
 </itn-md-input>
+```
+# Applying a custom theme
+You can take advantage of host-context pseudo class to display a custom theme that mimiics the material design input style - with a border just along bottom of the input
+Just add the class to any host element container and the class will be selectively applied to any nested itn-fa-input or itn-md-input components 
 
+```html
+<div class="custom-md-theme">
+  <itn-fa-input icon="envelope">
+      <input itnInput type="email" name="email" placeholder="Email" autocomplete="off" 
+  </itn-fa-input>
+  <itn-md-input icon="search">
+      <input itnInput type="email" name="email" placeholder="E-mail">
+  </itn-md-input>
+</div>
+```
+
+or...
+
+```html
+<itn-md-input icon="search" class="custom-md-theme">
+    <input itnInput type="email" name="email" placeholder="E-mail">
+</itn-md-input>
 ```
         
 # Running the Demo Application
@@ -113,35 +132,10 @@ npm start
 
 # Running This Module In Development
 
-First let's build the library using this command:
+Build the library using this command:
 
 ```bash
 npm run build
-```
-
-     
-Then let's link it:
-
-```bash
-cd dist
-npm link
-```
-
-
-On another folder on the same machine where we have for example a running Angular CLI, we then do:
-
-```bash
-npm link itn-input
-```
-
-
-# Running the Tests 
-
-The tests can be executed with the following commands:
-
-```bash
-npm test
-npm integration
 ```
 
 # License 
